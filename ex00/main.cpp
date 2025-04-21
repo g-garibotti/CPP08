@@ -16,7 +16,8 @@ int main()
     try {
         std::vector<int>::iterator it = easyfind(vec, 20);
         std::cout << "Found value in vector: " << *it << std::endl;
-    } catch (const std::exception& e) {
+    }
+    catch (const std::exception& e) {
         std::cout << e.what() << std::endl;
     }
     
